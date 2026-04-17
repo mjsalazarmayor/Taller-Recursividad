@@ -2,7 +2,7 @@ package ejercicioDos;
 
 /**
  * Leer un número entero y calcular la sumatoria hasta el numero leído.
- *
+ * Este código tiene una complejidad de O(n)
  *
  * @author Maria Jose Salazar Lopez
  * @version 1.0

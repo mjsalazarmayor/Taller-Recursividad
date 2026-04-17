@@ -5,25 +5,44 @@ package ejercicioDoce;
  * = 1 ; Fib(0) = 0 (2) Fib(n) = Fib(n-1) + Fib(n-2) si n >= 2. Lea un valor
  * entero que representa el limite de la serie e imprimala hasta el valor
  * limite.
- *
+ * 
+ * Este código tiene una complejidad de O(n)
  *
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */
 public class Fibonacci {
 
-    /**
-     * Calcula el número de Fibonacci en la posición indicada usando recursividad.
-     *
-     * @param numeroLimite posición dentro de la serie
-     * @return valor de Fibonacci en esa posición
+    private static int[] memoria;
+
+     /**
+     * Prepara el entorno para el cálculo de Fibonacci.
+     * 
+     * @param n la posición en la serie a calcular
+     * @return el valor de Fibonacci en la posición n.
      */
-    public static int serieFinonacci(int numeroLimite) {
-        if (numeroLimite == 1) {
-            return 1;
-        } else if (numeroLimite == 0) {
-            return 0;
-        }
-        return serieFinonacci(numeroLimite - 1) + serieFinonacci(numeroLimite - 2);
+
+    public static int fibonacciMemoria(int n) {
+        memoria = new int[n + 1];
+        return calcularSerieFibonacci(n);
     }
+
+    /**
+     * Calcula el número de Fibonacci de forma recursiva eficiente.
+     * 
+     * @param n posición actual a calcular
+     * @return posición n.
+     */
+
+    private static int calcularSerieFibonacci(int n) {
+        if (n <= 1)
+            return n;
+
+        if (memoria[n] != 0)
+            return memoria[n];
+
+        memoria[n] = calcularSerieFibonacci(n - 1) + calcularSerieFibonacci(n - 2);
+        return memoria[n];
+    }
+
 }

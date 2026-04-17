@@ -3,7 +3,9 @@ package ejercicioOcho;
 /**
  * Leer 2 números enteros y calcular el cociente de la división entera.
  * (sugerencia: use restas sucesivas)
- *
+ * 
+ * Este código tiene una complejidad de O(n)
+ * 
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */

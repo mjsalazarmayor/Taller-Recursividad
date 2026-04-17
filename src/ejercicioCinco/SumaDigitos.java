@@ -2,7 +2,7 @@ package ejercicioCinco;
 
 /**
  * Leer un numero y sumar los dígitos de un número. Ejemplo: Entrada: 123 Resultado:6
- *
+ * Este código tiene una complejidad de O(n)
  *
  * @author Maria Jose Salazar Lopez
  * @version 1.0

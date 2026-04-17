@@ -2,7 +2,7 @@ package ejercicioUno;
 
 /**
  * Leer un numero entero y n calcular la factorial de dicho numero.
- *
+ * Este código tiene una complejidad de O(n)
  *
  * @author Maria Jose Salazar Lopez
  * @version 1.0

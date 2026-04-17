@@ -2,7 +2,7 @@ package ejercicioCuatro;
 
 /**
  * Leer un número entero e invertirlo. Ejemplo: Entrada: 123 Salida: 321
- *
+ * Este código tiene una complejidad de O(n)
  *
  * @author Maria Jose Salazar Lopez
  * @version 1.0

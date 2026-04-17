@@ -4,6 +4,8 @@ package ejercicioNueve;
  * Leer 2 números enteros y realizar la multiplicación de los 2 números mediante
  * sumas sucesivas.
  *
+ * Este código tiene una complejidad de O(n)
+ * 
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */
