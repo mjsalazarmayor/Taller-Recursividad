@@ -3,7 +3,9 @@ package ejercicioDiez;
 /**
  * Leer n valores enteros, almacenarlos en un arreglo y realizar la suma de los
  * elementos del vector.
- *
+ * 
+ * Este código tiene una complejidad de O(n)
+ * 
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */

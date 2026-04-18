@@ -7,6 +7,8 @@ package ejercicioTrece;
  * Ackermann(1, 2) = 4; Ackermann(3, 2) = 29 Realice un programa para encontrar
  * el valor de lfuncion de Ackerman, para dos valores enteros m,n.
  *
+ * Este codigo tiene una complejidad de O(A(m,n))
+ * 
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */

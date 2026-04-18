@@ -2,7 +2,7 @@ package ejercicioTres;
 
 /**
  * Leer un valor entero y calcular la sumatoria 1 + ½ +1/3+ … 1/n.
- *
+ * Este código tiene una complejidad de O(n)
  *
  * @author Maria Jose Salazar Lopez
  * @version 1.0

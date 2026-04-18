@@ -3,7 +3,8 @@ package ejercicioSeis;
 /**
  * Leer un número llamado base y otro exponente y calcular la potencia elevando
  * la base al exponente.
- *
+ * Este código tiene una complejidad de O(n)
+ * 
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */

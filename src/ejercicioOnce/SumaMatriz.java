@@ -3,6 +3,8 @@ package ejercicioOnce;
 /**
  * Cree una matriz de tamaño mXn y sume los elementos de la matriz.
  *
+ * Este código tiene una complejidad de O(n^2)
+ * 
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */
