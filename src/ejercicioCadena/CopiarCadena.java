@@ -3,6 +3,8 @@ package ejercicioCadena;
 /**
  * Realizar un programa que permita copiar una cadena en otra.
  *
+ * Este codigo tiene una complejidad O(n)
+ * 
  * @author Maria Jose Salazar Lopez
  * @version 1.0
  */
