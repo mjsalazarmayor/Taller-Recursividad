@@ -7,7 +7,7 @@
 
 ## Descripción del taller
 
-Este taller tiene 13 ejercicios que van desde cosas básicas como calcular factoriales hasta funciones un poco más complejas como la función de Ackerman. La idea es practicar ciclos, recursividad y manejo de arreglos y matrices.
+Este taller tiene 14 ejercicios que van desde cosas básicas como calcular factoriales hasta funciones un poco más complejas como la función de Ackerman. La idea es practicar ciclos, recursividad y manejo de arreglos y matrices.
 
 ---
 
@@ -27,6 +27,7 @@ src/
 ├── ejercicioDiez/       # Suma de elementos de un vector
 ├── ejercicioOnce/       # Suma de elementos de una matriz mxn
 ├── ejercicioDoce/      # Serie de Fibonacci
+├── ejercicioCadena/    # Copiar Cadena
 └── ejercicioTrece/    # Función de Ackerman
 ```
 
